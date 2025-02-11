@@ -1,0 +1,143 @@
+/*Contenedor principal*/
+.mi-contenedor {
+    position: relative; /*Define que los elementos dentro (las imágenes) se posicionen en relación a este contenedor.*/
+    width: 100%; /*El contenedor ocupa todo el ancho posible.*/
+    flex-direction: column;  /* Alinea los elementos verticalmente */
+}
+/* Estilos para la imagen de fondo */
+.background-img {
+    border: 3px solid rgb(255, 255, 255); /*Borde.*/
+    width: 60%; /*Define el ancho de la imagen de abajo*/
+    display: block; /* Elimina el espacio debajo de la imagen*/
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+/*Estilo para la imagen de encima.*/
+.overlay-img {
+    position:absolute; /* Posiciona esta imagen de forma absoluta sobre el contenedor (por eso usamos 'relative' arriba) */
+    top: 2%;              /* Alinea la imagen superpuesta en la parte superior del contenedor */
+    left: 24%;             /* Alinea la imagen superpuesta al borde izquierdo del contenedor */
+    width: 8%;         /*Define el ancho de la imagen de encima*/
+}
+/*CONTENEDOR DEL NAV*/
+.cont-nav ul{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(https://media.istockphoto.com/id/1702146035/es/vector/fondo-degradado-borroso-abstracto-dorado-ilustraci%C3%B3n-vectorial.jpg?s=612x612&w=0&k=20&c=4guHYMCd1e-3iDGGfp1jCRMSk_vqRJIpyeHWYMuFthA=);
+    background-color:rgb(243, 226, 129); /*Fondo blanco al contenedor del menu*/
+    padding: 17px; /*Espacio interno*/
+    border: 15px solid rgb(156, 17, 17); /*Borde*/
+    width: 40%; /*El contenedor ocupara el 40% de su contenedor padre (nav) */
+    margin: 0 auto; /*Para centrar el contenedor */
+    display: flex; /*Para poder poner los textos al lado del otro*/
+    gap: 200px; /*Espacio entre los textos*/
+    justify-content: center;  /* Centra los li horizontalmente */
+    margin-bottom: 100px;
+}
+/*Contenedor de deberias probar*/
+.cont-deb-probar {
+    color: rgb(255, 145, 0);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*Tipo de Letra*/
+    padding: 0%;
+    background-color: rgb(126, 36, 36);
+    border: 10px solid rgb(17, 17, 17);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.cont-txtperro-monst {
+    position: relative;
+    background-image: url(https://mejorconsalud.as.com/wp-content/uploads/2021/12/cielo-estrellado-negro.jpg);
+    width: 50%;
+    padding: 100px;
+    border: 10px solid white;
+    color: white;
+    margin:auto;
+    margin-bottom: 100px;
+    font-size: 24px;
+}
+/*Contenedor de imagen deberias probar 1*/
+.cont-imgdeb-probar-1{
+    position: absolute;
+    border: 10px solid rgb(255, 255, 255);
+    width: auto;
+    display: block;
+    margin-left: 50%;
+    top: -10%;
+}
+
+.cont-txthamburg-texana {
+    position: relative;
+    background-image: url(/img/fondo_texas.jpg);
+    background-size: 20%; /*Ajustar el fondo*/
+    width: 50%;
+    padding: 100px;
+    border: 10px solid white;
+    color: white;
+    margin:auto;
+    text-align: end;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+/*Contenedor de imagen deberias probar 1*/
+.cont-imgdeb-probar-2{
+    position: absolute;
+    border: 10px solid rgb(255, 255, 255);
+    width: auto;
+    display: block;
+    margin-left: 0%;
+    top: -10%;
+}
+.cont-formulario {
+    position: relative;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    padding: 40px;
+    margin: auto;
+    border: 10px solid rgb(104, 23, 23);
+}
+.cont-formulario p{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    top: 200px;
+}
+.cont-img-logo {
+    position: absolute;
+    width: 20%;
+    border: 10px solid rgb(104, 23, 23);
+    top: 30px; /*Para mover la imagen en modo arriba y abajo*/
+    left: 80px; /*Para mover la imagen en modo derecha y izquierda*/
+    
+}
+.formulario-nombre {
+    margin-left: 300px; 
+}
+.formulario-nombre1 {
+    margin-left: 10px; 
+}
+.formulario-correo {
+    margin-left: 300px;
+}
+.formulario-correo1 {
+    margin-left: 28px;
+}
+.formulario-comentario {
+    margin-left: 300px;
+}
+.formulario-comentario1 {
+    width: 30%;
+    padding: 35px;
+    margin-left: 300px;
+    font-size: 15px;
+}
+.formulario-submit {
+    background-color: rgb(134, 130, 125);
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-left: 400px;
+}
