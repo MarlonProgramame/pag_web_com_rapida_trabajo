@@ -69,7 +69,7 @@
 .cont-txthamburg-texana {
     position: relative;
     background-image: url(/img/fondo_texas.jpg);
-    background-size: 100%; /*Ajustar el fondo*/
+    background-size: 20%; /*Ajustar el fondo*/
     width: 50%;
     padding: 100px;
     border: 10px solid white;
